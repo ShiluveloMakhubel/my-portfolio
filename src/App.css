@@ -1,35 +1,13 @@
 /* src/styles/App.css */
 .App {
-  font-family: Arial, sans-serif;
-  text-align: center;
-}
-
-header {
-  background-color: #282c34;
-  padding: 20px;
-  color: white;
-}
-
-nav ul {
-  list-style-type: none;
-}
-
-nav ul li {
-  display: inline;
-  margin: 0 10px;
+  font-family: 'Arial', sans-serif;
 }
 
 section {
   padding: 20px;
 }
 
-.project-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.project-item {
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid #ccc;
+section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
 }
