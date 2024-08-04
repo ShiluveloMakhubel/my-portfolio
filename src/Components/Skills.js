@@ -1,12 +1,36 @@
-// src/components/Skills.js
 import React from 'react';
 import { FaCode, FaDatabase, FaCloud, FaGitAlt, FaReact, FaNodeJs, FaAws } from 'react-icons/fa';
 import { SiJavascript, SiDotnet, SiCplusplus, SiCss3, SiHtml5 } from 'react-icons/si';
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 import './Skills.css';
 
 const Skills = () => {
+  const controls = useAnimation();
+  const { ref, inView } = useInView({ triggerOnce: false });
+
+  React.useEffect(() => {
+    if (inView) {
+      controls.start('visible');
+    } else {
+      controls.start('hidden');
+    }
+  }, [controls, inView]);
+
+  const variants = {
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+    hidden: { opacity: 0, y: 100 },
+  };
+
   return (
-    <section id="skills" className="skills-section">
+    <motion.section
+      ref={ref}
+      initial="hidden"
+      animate={controls}
+      variants={variants}
+      id="skills"
+      className="skills-section"
+    >
       <div className="container">
         <h2>Skills</h2>
         <div className="skills-grid">
@@ -62,7 +86,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
