@@ -1,5 +1,7 @@
 import React from 'react';
 import { FaServer, FaCode, FaLock, FaNetworkWired } from 'react-icons/fa';
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 import './Courses.css';
 
 const coursesData = [
@@ -30,8 +32,31 @@ const coursesData = [
 ];
 
 const Courses = () => {
+  const controls = useAnimation();
+  const { ref, inView } = useInView({ triggerOnce: false });
+
+  React.useEffect(() => {
+    if (inView) {
+      controls.start('visible');
+    } else {
+      controls.start('hidden');
+    }
+  }, [controls, inView]);
+
+  const variants = {
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+    hidden: { opacity: 0, y: 100 },
+  };
+
   return (
-    <section id="courses" className="courses-section">
+    <motion.section
+      ref={ref}
+      initial="hidden"
+      animate={controls}
+      variants={variants}
+      id="courses"
+      className="courses-section"
+    >
       <div className="container">
         <h2>Courses</h2>
         <div className="courses-list">
@@ -45,7 +70,7 @@ const Courses = () => {
           ))}
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
