@@ -1,10 +1,35 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 import './Projects.css';
 
 const Projects = () => {
+  const controls = useAnimation();
+  const { ref, inView } = useInView({ triggerOnce: false });
+
+  React.useEffect(() => {
+    if (inView) {
+      controls.start('visible');
+    } else {
+      controls.start('hidden');
+    }
+  }, [controls, inView]);
+
+  const variants = {
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+    hidden: { opacity: 0, y: 100 },
+  };
+
   return (
-    <section id="projects" className="projects-section">
+    <motion.section
+      ref={ref}
+      initial="hidden"
+      animate={controls}
+      variants={variants}
+      id="projects"
+      className="projects-section"
+    >
       <h2>Projects</h2>
       <div className="project-grid">
         <div className="project-item">
@@ -68,7 +93,7 @@ const Projects = () => {
           </a>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
