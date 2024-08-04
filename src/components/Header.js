@@ -1,12 +1,16 @@
 import React from 'react';
 import './Header.css';
 
+
 const Header = () => {
   return (
     <header className="header">
       <nav className="navbar">
         <div className="container">
-          <a href="#about" className="brand">Shiluvelo Makhubele</a>
+          <a href="#about" className="brand">
+            <img src="/logo.png" alt="Shiluvelo Makhubele Logo" className="logo" />
+            
+          </a>
           <ul className="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#education">Education</a></li>

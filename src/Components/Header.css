@@ -7,6 +7,8 @@
   z-index: 1000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   animation: slideDown 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
 }
 
 .navbar .container {
@@ -14,6 +16,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .brand {
@@ -21,12 +26,19 @@
   color: #fff;
   text-decoration: none;
   font-weight: bold;
-  animation: fadeInLeft 1s ease;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 80px; /* Adjust as needed */
+  margin-right: 0.5rem;
 }
 
 .nav-links {
   display: flex;
   list-style: none;
+  margin-left: auto; /* Align navigation links to the right */
 }
 
 .nav-links li {
