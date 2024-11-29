@@ -1,49 +1,57 @@
 .experience-section {
-    padding: 4rem 0;
-    background-color: #f9f9f9;
-    text-align: center;
-  }
-  
-  .container {
-    max-width: 900px;
-    margin: 0 auto;
-  }
-  
-  h2 {
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 2rem;
-  }
-  
-  .experience-list {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-  
-  .experience-item {
-    background: #fff;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    transform-origin: top;
-  }
-  
-  .experience-item h3 {
-    font-size: 1.5rem;
-    color: #007bff;
-  }
-  
-  .experience-item p,
-  .experience-item ul {
-    color: #555;
-    line-height: 1.6;
-    margin-bottom: 1rem;
-  }
-  
-  .experience-item ul {
-    list-style: disc;
-    padding-left: 1.5rem;
-  }
-  
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 4rem; /* Added bottom margin to give space between sections */
+}
+
+.experience-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.experience-item {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.experience-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.experience-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.experience-item p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.experience-item ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.experience-item ul li {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
