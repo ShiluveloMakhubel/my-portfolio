@@ -28,6 +28,12 @@ const coursesData = [
     description: "This course covers the principles of computer networking and the protocols used in modern networks.",
     skills: "Network protocols, Network architecture, Network security",
     icon: <FaNetworkWired className="course-icon" />
+  },
+  {
+    title: "COS301 Software Engineering",
+    description: "This course covers the principles of computer networking and the protocols used in modern networks.",
+    skills: "Network protocols, Network architecture, Network security",
+    icon: <FaNetworkWired className="course-icon" />
   }
 ];
 

@@ -25,11 +25,11 @@ const About = () => {
             </div>
             <div className="skill">
               <FaShieldAlt className="skill-icon" />
-              <p>Security</p>
+              <p> Security </p>
             </div>
             <div className="skill">
               <FaUserSecret className="skill-icon" />
-              <p>Digital Forensics</p>
+              <p> Digital Forensics</p>
             </div>
           </div>
         </div>

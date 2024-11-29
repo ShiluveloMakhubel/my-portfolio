@@ -7,6 +7,8 @@ import Contact from './Components/Contact';
 import Skills from './Components/Skills';
 import Courses from './Components/Courses';
 import Footer from './Components/Footer';
+import Research from './Components/Research'
+import Experience from './Components/Experience';
 import './App.css';
 
 
@@ -16,9 +18,12 @@ const App = () => {
       <Header />
       <About />
       <Education />
+      <Experience/>
       <Projects />
       <Skills />
       <Courses />
+      <Research
+       />
       <Footer />
     </div>
   );
