@@ -34,56 +34,116 @@ const Skills = () => {
       <div className="container">
         <h2>Skills</h2>
         <div className="skills-grid">
-          <div className="skill-item">
+          <motion.div
+            className="skill-item"
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ duration: 0.6, ease: 'easeInOut' }}
+          >
             <FaCode className="skill-icon" />
             <h3>Software Development</h3>
             <p>JavaScript, .NET, C++, Node.js, React</p>
-          </div>
-          <div className="skill-item">
+          </motion.div>
+          <motion.div
+            className="skill-item"
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ duration: 0.6, ease: 'easeInOut' }}
+          >
             <FaDatabase className="skill-icon" />
             <h3>Databases</h3>
             <p>NoSQL, SQL, MongoDB, AWS DynamoDB</p>
-          </div>
-          <div className="skill-item">
+          </motion.div>
+          <motion.div
+            className="skill-item"
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ duration: 0.6, ease: 'easeInOut', delay: 0.2 }}
+          >
             <FaCloud className="skill-icon" />
             <h3>Cloud Computing</h3>
             <p>AWS EC2, AWS Inspector, Cloud Security Principles</p>
-          </div>
-          <div className="skill-item">
+          </motion.div>
+          <motion.div
+            className="skill-item"
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ duration: 0.6, ease: 'easeInOut', delay: 0.4 }}
+          >
             <FaGitAlt className="skill-icon" />
             <h3>Version Control</h3>
             <p>GIT, GitHub</p>
-          </div>
-          <div className="skill-item">
+          </motion.div>
+          <motion.div
+            className="skill-item"
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ duration: 0.6, ease: 'easeInOut', delay: 0.6 }}
+          >
             <FaReact className="skill-icon" />
             <h3>Front-End Development</h3>
             <p>React, Angular/Ionic, HTML, CSS</p>
-          </div>
-          <div className="skill-item">
+          </motion.div>
+          <motion.div
+            className="skill-item"
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ duration: 0.6, ease: 'easeInOut', delay: 0.8 }}
+          >
             <FaNodeJs className="skill-icon" />
             <h3>Back-End Development</h3>
             <p>Node.js, REST APIs, JWT</p>
-          </div>
-          <div className="skill-item">
+          </motion.div>
+          <motion.div
+            className="skill-item"
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ duration: 0.6, ease: 'easeInOut', delay: 1 }}
+          >
             <FaAws className="skill-icon" />
             <h3>DevOps</h3>
             <p>CI/CD Pipeline, Agile Methodology</p>
-          </div>
-          <div className="skill-item">
+          </motion.div>
+          <motion.div
+            className="skill-item"
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ duration: 0.6, ease: 'easeInOut', delay: 1.2 }}
+          >
             <SiHtml5 className="skill-icon" />
             <h3>Web Technologies</h3>
             <p>HTML, CSS</p>
-          </div>
-          <div className="skill-item">
+          </motion.div>
+          <motion.div
+            className="skill-item"
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ duration: 0.6, ease: 'easeInOut', delay: 1.4 }}
+          >
             <SiDotnet className="skill-icon" />
             <h3>Software Architecture</h3>
             <p>Software Development Lifecycle (SDLC), Design Patterns, UML Diagrams</p>
-          </div>
-          <div className="skill-item">
+          </motion.div>
+          <motion.div
+            className="skill-item"
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ duration: 0.6, ease: 'easeInOut', delay: 1.6 }}
+          >
             <SiCplusplus className="skill-icon" />
             <h3>Programming Languages</h3>
             <p>C++, JavaScript, .NET</p>
-          </div>
+          </motion.div>
         </div>
       </div>
     </motion.section>
