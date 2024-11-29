@@ -9,12 +9,33 @@ import Courses from './Components/Courses';
 import Footer from './Components/Footer';
 import Research from './Components/Research'
 import Experience from './Components/Experience';
+import DataStructuresVisualization from './Components/DataStructuresVisualization'
+import ParticlesBackground from './Components/ParticlesBackground';
 import './App.css';
 
 
 const App = () => {
   return (
     <div className="App">
+       
+      <ParticlesBackground
+        id="tsparticles"
+        className="particles-container"
+        options={{
+          particles: {
+            number: {
+              value: 100,
+            },
+            size: {
+              value: 3,
+            },
+            links: {
+              enable: true,
+              distance: 150,
+            },
+          },
+        }}
+      />
       <Header />
       <About />
       <Education />
@@ -24,6 +45,7 @@ const App = () => {
       <Courses />
       <Research
        />
+       <DataStructuresVisualization/>
       <Footer />
     </div>
   );
