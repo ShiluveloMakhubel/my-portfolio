@@ -27,8 +27,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },"engines": {
-  "node": "22.x",
-  "npm": "10.x"
+  "node": "20.18.0",
+  "npm": "npm@10.9.0"
 }
 ,
   "eslintConfig": {
