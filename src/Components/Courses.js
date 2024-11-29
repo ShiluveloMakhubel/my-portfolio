@@ -67,12 +67,19 @@ const Courses = () => {
         <h2>Courses</h2>
         <div className="courses-list">
           {coursesData.map((course, index) => (
-            <div key={index} className="course-item">
+            <motion.div
+              key={index}
+              className="course-item"
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: false, amount: 0.2 }}
+              transition={{ duration: 0.6, ease: 'easeInOut', delay: 0.1 * index }}
+            >
               {course.icon}
               <h3>{course.title}</h3>
               <p>{course.description}</p>
               <p><em>Skills Gained: {course.skills}</em></p>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
