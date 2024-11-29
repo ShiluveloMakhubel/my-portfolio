@@ -37,7 +37,7 @@
 
 .course-icon {
   font-size: 3rem;
-  color: #0077b6;
+  color: #000000;
   margin-bottom: 1rem;
 }
 
@@ -55,5 +55,5 @@
 
 .course-item em {
   font-style: normal;
-  color: #0077b6;
+  color: #000000;
 }
