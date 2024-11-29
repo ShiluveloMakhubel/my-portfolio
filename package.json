@@ -26,7 +26,11 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  },
+  },"engines": {
+  "node": "22.x",
+  "npm": "10.x"
+}
+,
   "eslintConfig": {
     "extends": [
       "react-app",
