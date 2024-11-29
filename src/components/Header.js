@@ -8,7 +8,7 @@ const Header = () => {
       <nav className="navbar">
         <div className="container">
           <a href="#about" className="brand">
-            <img src="/logo.png" alt="Shiluvelo Makhubele Logo" className="logo" />
+            <img src="/logo.PNG" alt="Shiluvelo Makhubele Logo" className="logo" />
             
           </a>
           <ul className="nav-links">

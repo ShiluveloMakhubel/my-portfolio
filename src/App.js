@@ -6,8 +6,9 @@ import Education from './Components/Education';
 import Contact from './Components/Contact';
 import Skills from './Components/Skills';
 import Courses from './Components/Courses';
-import './App.css';
 import Footer from './Components/Footer';
+import './App.css';
+
 
 const App = () => {
   return (
