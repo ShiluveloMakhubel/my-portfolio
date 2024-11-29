@@ -1,0 +1,55 @@
+.research-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #0056b3;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.research-details,
+.tools-section,
+.research-outcomes {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 1.5rem;
+}
+
+.research-details h3,
+.tools-section h3,
+.research-outcomes h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.research-details ul,
+.tools-section ul,
+.research-outcomes ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.research-details li,
+.tools-section li,
+.research-outcomes li {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.research-details strong,
+.tools-section strong,
+.research-outcomes strong {
+  color: #007bff;
+}
