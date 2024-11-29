@@ -3,9 +3,10 @@
   background: #ffffff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 1000px;
+  max-width: 800px;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 3rem; /* Add space between sections */
 }
 
 .projects-section h2 {
@@ -16,13 +17,13 @@
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1.5rem;
 }
 
 .project-item {
   background: #fff;
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
@@ -33,21 +34,37 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.project-item h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.project-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.project-skills {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
 .github-link {
+  font-size: 1.1rem;
+  color: #0077b6;
+  text-decoration: none;
   display: flex;
   align-items: center;
-  font-size: 1rem;
-  color: #333;
-  text-decoration: none;
-  margin-top: 1rem;
+  justify-content: center;
+}
+
+.github-link:hover {
+  text-decoration: underline;
 }
 
 .github-icon {
   margin-right: 0.5rem;
-}
-
-.project-description,
-.project-skills {
-  font-size: 1rem;
-  color: #555;
 }
