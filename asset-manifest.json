@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.f1ebcce3.css",
-    "main.js": "/static/js/main.a058372c.js",
-    "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
-    "index.html": "/index.html",
-    "main.f1ebcce3.css.map": "/static/css/main.f1ebcce3.css.map",
-    "main.a058372c.js.map": "/static/js/main.a058372c.js.map",
-    "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
+    "main.css": "/shiluvelomakhubel.github.io/my-portfolio/static/css/main.a18e78aa.css",
+    "main.js": "/shiluvelomakhubel.github.io/my-portfolio/static/js/main.ef85c20c.js",
+    "static/js/453.acca0757.chunk.js": "/shiluvelomakhubel.github.io/my-portfolio/static/js/453.acca0757.chunk.js",
+    "index.html": "/shiluvelomakhubel.github.io/my-portfolio/index.html",
+    "main.a18e78aa.css.map": "/shiluvelomakhubel.github.io/my-portfolio/static/css/main.a18e78aa.css.map",
+    "main.ef85c20c.js.map": "/shiluvelomakhubel.github.io/my-portfolio/static/js/main.ef85c20c.js.map",
+    "453.acca0757.chunk.js.map": "/shiluvelomakhubel.github.io/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1ebcce3.css",
-    "static/js/main.a058372c.js"
+    "static/css/main.a18e78aa.css",
+    "static/js/main.ef85c20c.js"
   ]
 }
