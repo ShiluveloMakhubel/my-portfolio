@@ -38,7 +38,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="contact" smooth={true} duration={500} offset={-50}>
+              <Link to="footer" smooth={true} duration={500} offset={-50}>
                 Contact
               </Link>
             </li>
