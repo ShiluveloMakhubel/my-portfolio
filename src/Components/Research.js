@@ -1,18 +1,30 @@
 import React from 'react';
-import { motion, useAnimation } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';  
-import './Research.css'; // Import the updated CSS file
+import { motion } from 'framer-motion';
+import './Research.css';
 
 const Research = () => {
   return (
-    <section id="research" className="research-section">
+    <motion.section
+      id="research"
+      className="research-section"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: false, amount: 0.2 }}
+      transition={{ duration: 0.8, ease: 'easeInOut' }}
+    >
       <div className="container">
         <h2>Honours Research: Developing Digital Evidence Gathering Techniques for IoT Devices</h2>
         <p>
-          My research focuses on digital forensic readiness for Internet of Things (IoT) devices, specifically examining Apple's HomeKit ecosystem. This study develops techniques for gathering, securing, and analyzing digital evidence from IoT devices, with an emphasis on pre-incident collection using the prototype tool "SecureCollect" which I developed
+          My research focuses on digital forensic readiness for Internet of Things (IoT) devices, specifically examining Apple's HomeKit ecosystem. This study develops techniques for gathering, securing, and analyzing digital evidence from IoT devices, with an emphasis on pre-incident collection using the prototype tool "SecureCollect" which I developed.
         </p>
-        
-        <div className="research-details">
+
+        <motion.div
+          className="research-details"
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: false, amount: 0.2 }}
+          transition={{ duration: 0.6, ease: 'easeInOut' }}
+        >
           <h3>Key Research Areas:</h3>
           <ul>
             <li><strong>Security Vulnerabilities:</strong> Identifying potential threats within IoT ecosystems and exploring mitigation strategies through forensic readiness.</li>
@@ -20,9 +32,15 @@ const Research = () => {
             <li><strong>Challenges & Opportunities:</strong> Addressing challenges such as data encryption, proprietary protocols, and cloud storage for IoT device forensics.</li>
             <li><strong>SecureCollect Prototype:</strong> A custom prototype developed for secure data collection and transmission from IoT devices to support forensic readiness in smart home environments.</li>
           </ul>
-        </div>
-        
-        <div className="tools-section">
+        </motion.div>
+
+        <motion.div
+          className="tools-section"
+          initial={{ opacity: 0, x: 50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: false, amount: 0.2 }}
+          transition={{ duration: 0.6, ease: 'easeInOut', delay: 0.2 }}
+        >
           <h3>Tools and Technologies Used:</h3>
           <ul>
             <li><strong>HomeKit and Apple’s Home app:</strong> The core system for managing IoT devices in the HomeKit ecosystem.</li>
@@ -35,9 +53,15 @@ const Research = () => {
             <li><strong>Wireshark:</strong> Network protocol analyzer used to capture and inspect data traffic between IoT devices for security and forensic analysis.</li>
             <li><strong>Virtual Machines:</strong> Employed to simulate different IoT environments, including Homebridge-enabled devices for testing forensic processes.</li>
           </ul>
-        </div>
+        </motion.div>
 
-        <div className="research-outcomes">
+        <motion.div
+          className="research-outcomes"
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: false, amount: 0.2 }}
+          transition={{ duration: 0.6, ease: 'easeInOut', delay: 0.4 }}
+        >
           <h3>Research Outcomes:</h3>
           <ul>
             <li>Improved techniques for extracting digital evidence from Apple’s Home app and non-HomeKit-compatible devices.</li>
@@ -45,17 +69,23 @@ const Research = () => {
             <li>Development of the SecureCollect prototype, enhancing IoT device data collection and security analysis for forensic investigations.</li>
             <li>Recommendations for improving forensic practices within the IoT ecosystem, particularly regarding data encryption, cloud-based storage, and device interoperability.</li>
           </ul>
-        </div>
+        </motion.div>
 
-        <div className="download-section">
+        <motion.div
+          className="download-section"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false, amount: 0.2 }}
+          transition={{ duration: 0.6, ease: 'easeInOut', delay: 0.6 }}
+        >
           <h3>Download Full Research</h3>
           <p>Click the button below to download the full research paper in PDF format:</p>
           <a href="/Full-article.pdf" download className="download-btn">
             Download Full Research
           </a>
-        </div>
+        </motion.div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
