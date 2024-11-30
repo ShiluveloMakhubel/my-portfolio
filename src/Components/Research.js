@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { FaGithub } from 'react-icons/fa'; // Import GitHub icon
 import './Research.css';
 
 const Research = () => {
@@ -69,6 +70,25 @@ const Research = () => {
             <li>Development of the SecureCollect prototype, enhancing IoT device data collection and security analysis for forensic investigations.</li>
             <li>Recommendations for improving forensic practices within the IoT ecosystem, particularly regarding data encryption, cloud-based storage, and device interoperability.</li>
           </ul>
+        </motion.div>
+
+        <motion.div
+          className="github-link"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false, amount: 0.2 }}
+          transition={{ duration: 0.6, ease: 'easeInOut', delay: 0.8 }}
+        >
+           
+          
+          <a
+            href="https://github.com/ShiluveloMakhubel/homekit-forensics-frontend.git"
+            className="github-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="github-icon" /> View on GitHub
+          </a>
         </motion.div>
 
         <motion.div

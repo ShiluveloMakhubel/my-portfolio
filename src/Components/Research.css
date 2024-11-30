@@ -47,3 +47,30 @@ ul {
 .download-btn:hover {
   background-color: #0056b3;
 }
+.github-link {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.github-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.github-btn:hover {
+  background-color: #555;
+}
+
+.github-icon {
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
