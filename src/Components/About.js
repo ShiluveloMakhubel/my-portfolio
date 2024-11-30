@@ -34,7 +34,7 @@ const About = () => {
       transition={{ duration: 0.7 }}
     >
       <h2>About Me</h2>
-      <div className="about-content">
+      <div className="about-content" >
         <p>
           I am a computer science graduate with a passion for software engineering, security, and digital forensics. 
           I love creating modern, interactive web applications and solving complex problems. I am currently completing 
