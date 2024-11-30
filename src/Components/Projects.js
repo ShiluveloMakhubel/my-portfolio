@@ -40,19 +40,19 @@ const Projects = () => {
           <p className="project-skills">
             <strong>Skills Gained:</strong> Front‑end development, UI/UX design, API integration, matching algorithms, chat functionality.
           </p>
-          <a href="https://github.com/ShiluveloMakhubel/dating-app" className="github-link" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/dylankapnias-uni/miniproject-2023-grp5.git" className="github-link" target="_blank" rel="noopener noreferrer">
             <FaGithub className="github-icon" /> View on GitHub
           </a>
         </div>
         <div className="project-item">
           <h3>2023 Capstone Project: Event Organizer App</h3>
           <p className="project-description">
-            Built an Event Organizer app with Angular/Ionic, NestJS, and MongoDB.
+            Built an Event Organizer Mobile app with Angular/Ionic, NestJS, and MongoDB.
           </p>
           <p className="project-skills">
             <strong>Skills Gained:</strong> Full‑stack development, RESTful API creation, JWT, MongoDB data modelling, event scheduling, user management, DevOps, Agile methodology.
           </p>
-          <a href="https://github.com/ShiluveloMakhubel/event-organizer-app" className="github-link" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/COS301-SE-2023/MeetApp.git" className="github-link" target="_blank" rel="noopener noreferrer">
             <FaGithub className="github-icon" /> View on GitHub
           </a>
         </div>
@@ -64,7 +64,7 @@ const Projects = () => {
           <p className="project-skills">
             <strong>Skills Gained:</strong> Full‑stack development, React, .NET, leadership, DevOps.
           </p>
-          <a href="https://github.com/ShiluveloMakhubel/nvs-system" className="github-link" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/khabubu/Preproduction-National-Validation-Services.git" className="github-link" target="_blank" rel="noopener noreferrer">
             <FaGithub className="github-icon" /> View on GitHub
           </a>
         </div>
@@ -76,7 +76,7 @@ const Projects = () => {
           <p className="project-skills">
             <strong>Skills Gained:</strong> Full‑stack development, React, OAuth 2.0, Node.js, AWS DynamoDB, AWS EC2, AWS Inspector, logging.
           </p>
-          <a href="https://github.com/ShiluveloMakhubel/cloud-security-app" className="github-link" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/ShiluveloMakhubel/modsel.git" className="github-link" target="_blank" rel="noopener noreferrer">
             <FaGithub className="github-icon" /> View on GitHub
           </a>
         </div>
@@ -88,7 +88,7 @@ const Projects = () => {
           <p className="project-skills">
             <strong>Skills Gained:</strong> Design patterns, UML diagrams, documentation, C++, teamwork.
           </p>
-          <a href="https://github.com/ShiluveloMakhubel/war-simulator" className="github-link" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/ChrisMitt/COS214_Project.git" className="github-link" target="_blank" rel="noopener noreferrer">
             <FaGithub className="github-icon" /> View on GitHub
           </a>
         </div>
