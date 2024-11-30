@@ -9,7 +9,7 @@ const ParticlesBackground = () => {
   };
 
   return (
-    <Particles
+    <Particles 
       id="tsparticles"
       init={particlesInit}
       options={{
@@ -36,7 +36,8 @@ const ParticlesBackground = () => {
             onClick: { enable: true, mode: "push" },
           },
           modes: {
-            repulse: { distance: 100 },
+            repulse: { distance: 150,
+              duration: 0.4 },
             push: { quantity: 4 },
           },
         },
