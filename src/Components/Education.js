@@ -24,6 +24,7 @@ const Education = () => {
 
   return (
     <motion.div
+    id="education"
       ref={ref}
       initial="hidden"
       animate={controls}

@@ -22,6 +22,7 @@ const Experience = () => {
 
   return (
     <motion.div
+    id="experience"
       ref={ref}
       initial="hidden"
       animate={controls}
