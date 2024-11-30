@@ -98,7 +98,7 @@ const Skills = () => {
           >
             <FaNodeJs className="skill-icon" />
             <h3>Back-End Development</h3>
-            <p>Node.js, REST APIs, JWT</p>
+            <p>Node.js, REST APIs, JWT, Python, Flask</p>
           </motion.div>
           <motion.div
             className="skill-item"
