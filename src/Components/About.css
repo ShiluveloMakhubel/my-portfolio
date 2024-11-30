@@ -8,6 +8,7 @@
   text-align: center;
   transition: opacity 0.7s ease, transform 0.7s ease; /* Smooth transition for fade and move */
   margin-bottom: 4rem; /* Added bottom margin to give space between sections */
+ 
 }
 
 .about-section h2 {
