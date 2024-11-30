@@ -31,8 +31,8 @@ const coursesData = [
   },
   {
     title: "COS301 Software Engineering",
-    description: "This course covers the principles of computer networking and the protocols used in modern networks.",
-    skills: "Network protocols, Network architecture, Network security",
+    description: "The module exposes students to problems associated with software development on an industrial scale",
+    skills: "Teamwork, Communication,Software Architecture, Software development Methodologies and lifecycle,Technical skills",
     icon: <FaNetworkWired className="course-icon" />
   }
 ];
