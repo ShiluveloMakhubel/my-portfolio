@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaServer, FaCode, FaLock, FaNetworkWired } from 'react-icons/fa';
+import { FaServer, FaCode, FaLock, FaNetworkWired, FaUserShield, FaChalkboardTeacher , FaLaptopCode} from 'react-icons/fa';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import './Courses.css';
@@ -31,9 +31,38 @@ const coursesData = [
   },
   {
     title: "COS301 Software Engineering",
-    description: "The module exposes students to problems associated with software development on an industrial scale",
-    skills: "Teamwork, Communication,Software Architecture, Software development Methodologies and lifecycle,Technical skills",
+    description: "The module exposes students to problems associated with software development on an industrial scale.",
+    skills: "Teamwork, Communication, Software Architecture, Development Methodologies, Lifecycle Management",
     icon: <FaNetworkWired className="course-icon" />
+  },
+  {
+    title: "COS720 Computer and Information Security (I)",
+    description: "Focuses on applied security topics, trust management systems, privacy, and social engineering.",
+    skills: "Operating System Security, Secure Coding, Cryptography, Privacy Management, Trust Systems",
+    icon: <FaUserShield className="course-icon" />
+  },
+  {
+    title: "COS783 Digital Forensics and Investigations",
+    description: "Prepares students for digital forensic investigations involving crimes and incidents.",
+    skills: "Digital Forensics Processes, Hardware/Software Forensics, Network Forensics, Cyber Law",
+    icon: <FaLock className="course-icon" />
+  },
+  {
+    title: "COS721 Computer and Information Security (II)",
+    description: "Covers information security management, risk management, privacy, ethics, and legal issues.",
+    skills: "Digital Questioned Document Eximination ,Ballistics,PDF analysis, Risk Management, Security Policies, Privacy, Ethical Considerations, Security Technologies",
+    icon: <FaUserShield className="course-icon" />
+  },
+  {
+    title: "COS750 Educational Software Development",
+    description: "Provides the foundation for evaluating and developing educational software using didactic principles.",
+    skills: "Educational Software Design, Didactic Principles, Programming Environments, Adaptive Software",
+    icon: <FaChalkboardTeacher className="course-icon" />
+  },{
+    title: "COS730 Software Engineering (I)",
+    description: "This module provides an overview of Software Engineering challenges and practices, emphasizing standardization and reuse.",
+    skills: "Software Engineering Practices, System Design, Standardization, Predictable Processes, Robust Systems",
+    icon: <FaLaptopCode className="course-icon" />
   }
 ];
 
