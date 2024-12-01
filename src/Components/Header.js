@@ -48,6 +48,11 @@ const Header = () => {
               </Link>
             </li>
             <li>
+              <Link to="community" smooth={true} duration={500} offset={-50}>
+                Community
+              </Link>
+            </li>
+            <li>
               <Link to="research" smooth={true} duration={500} offset={-50}>
                 Research
               </Link>
