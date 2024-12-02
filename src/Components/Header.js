@@ -57,6 +57,11 @@ const Header = () => {
                 Research
               </Link>
             </li>
+            <li>
+              <Link to="ongoing-projects" smooth={true} duration={500} offset={-50}>
+                On-Going projects
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

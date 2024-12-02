@@ -12,6 +12,7 @@ import Experience from './Components/Experience';
 import DataStructuresVisualization from './Components/DataStructuresVisualization'
 import ParticlesBackground from './Components/ParticlesBackground';
 import Project from './Components/Project'
+import OngoingProjects from './Components/OngoingProjects'
 import './App.css';
 
 
@@ -45,6 +46,7 @@ const App = () => {
       <Skills />
       <Courses />
       <Project/>
+      <OngoingProjects/>
       <Research
        />
        <DataStructuresVisualization/>
