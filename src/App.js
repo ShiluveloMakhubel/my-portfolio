@@ -3,13 +3,11 @@ import Header from './Components/Header';
 import About from './Components/About';
 import Projects from './Components/Projects';
 import Education from './Components/Education';
-import Contact from './Components/Contact';
 import Skills from './Components/Skills';
 import Courses from './Components/Courses';
 import Footer from './Components/Footer';
 import Research from './Components/Research'
 import Experience from './Components/Experience';
-import DataStructuresVisualization from './Components/DataStructuresVisualization'
 import ParticlesBackground from './Components/ParticlesBackground';
 import Project from './Components/Project'
 import OngoingProjects from './Components/OngoingProjects'
@@ -49,7 +47,6 @@ const App = () => {
       <OngoingProjects/>
       <Research
        />
-       <DataStructuresVisualization/>
       <Footer />
     </div>
   );
