@@ -1,15 +1,25 @@
 {
   "files": {
-    "main.css": "/shiluvelomakhubel.github.io/my-portfolio/static/css/main.a18e78aa.css",
-    "main.js": "/shiluvelomakhubel.github.io/my-portfolio/static/js/main.ef85c20c.js",
+    "main.css": "/shiluvelomakhubel.github.io/my-portfolio/static/css/main.33b7d3cb.css",
+    "main.js": "/shiluvelomakhubel.github.io/my-portfolio/static/js/main.ce11eedf.js",
     "static/js/453.acca0757.chunk.js": "/shiluvelomakhubel.github.io/my-portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/IMG_2915.JPG": "/shiluvelomakhubel.github.io/my-portfolio/static/media/IMG_2915.19fb6294fd04229be270.JPG",
+    "static/media/IMG_2807.JPG": "/shiluvelomakhubel.github.io/my-portfolio/static/media/IMG_2807.2c63882465c2c477f703.JPG",
+    "static/media/IMG_2912.JPG": "/shiluvelomakhubel.github.io/my-portfolio/static/media/IMG_2912.342509cb227efb478fd7.JPG",
+    "static/media/IMG_2803.JPG": "/shiluvelomakhubel.github.io/my-portfolio/static/media/IMG_2803.8fa9cf6e097475ceedd1.JPG",
+    "static/media/IMG_2766.JPG": "/shiluvelomakhubel.github.io/my-portfolio/static/media/IMG_2766.db6255653797b1e02427.JPG",
+    "static/media/IMG_2762.JPG": "/shiluvelomakhubel.github.io/my-portfolio/static/media/IMG_2762.11e072dff148d704267d.JPG",
+    "static/media/IMG_2771.JPG": "/shiluvelomakhubel.github.io/my-portfolio/static/media/IMG_2771.471a00a93de232a9b422.JPG",
+    "static/media/IMG_3046.JPG": "/shiluvelomakhubel.github.io/my-portfolio/static/media/IMG_3046.7c4db79900978a984123.JPG",
+    "static/media/IMG_3044.JPG": "/shiluvelomakhubel.github.io/my-portfolio/static/media/IMG_3044.b212c2eb836a0ac4df0a.JPG",
+    "static/media/logo.PNG": "/shiluvelomakhubel.github.io/my-portfolio/static/media/logo.0a142b0a7b1dae070c13.PNG",
     "index.html": "/shiluvelomakhubel.github.io/my-portfolio/index.html",
-    "main.a18e78aa.css.map": "/shiluvelomakhubel.github.io/my-portfolio/static/css/main.a18e78aa.css.map",
-    "main.ef85c20c.js.map": "/shiluvelomakhubel.github.io/my-portfolio/static/js/main.ef85c20c.js.map",
+    "main.33b7d3cb.css.map": "/shiluvelomakhubel.github.io/my-portfolio/static/css/main.33b7d3cb.css.map",
+    "main.ce11eedf.js.map": "/shiluvelomakhubel.github.io/my-portfolio/static/js/main.ce11eedf.js.map",
     "453.acca0757.chunk.js.map": "/shiluvelomakhubel.github.io/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a18e78aa.css",
-    "static/js/main.ef85c20c.js"
+    "static/css/main.33b7d3cb.css",
+    "static/js/main.ce11eedf.js"
   ]
 }
