@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaCode, FaDatabase, FaCloud, FaGitAlt, FaReact, FaNodeJs, FaAws } from 'react-icons/fa';
-import { SiJavascript, SiDotnet, SiCplusplus, SiCss3, SiHtml5 } from 'react-icons/si';
+import {  SiDotnet, SiCplusplus, SiHtml5 } from 'react-icons/si';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import './Skills.css';
