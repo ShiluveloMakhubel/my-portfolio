@@ -1,6 +1,5 @@
 import React from 'react';
 import './Header.css';
-import logo from './images/logo.PNG';
 import { Link } from 'react-scroll'; // Import Link from react-scroll
 
 const Header = () => {
@@ -9,7 +8,7 @@ const Header = () => {
       <nav className="navbar">
         <div className="container">
           <a href="#about" className="brand">
-            <img src={logo} alt="Shiluvelo Makhubele Logo" className="logo" />
+            <img src={process.env.PUBLIC_URL +"/images/logo.PNG"} alt="Shiluvelo Makhubele Logo" className="logo" />
           </a>
           <ul className="nav-links">
             <li>

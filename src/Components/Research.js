@@ -100,7 +100,7 @@ const Research = () => {
         >
           <h3>Download Full Research</h3>
           <p>Click the button below to download the full research paper in PDF format:</p>
-          <a href="/Full-article.pdf" download className="download-btn">
+          <a href={process.env.PUBLIC_URL+"/Full-article.pdf"} download className="download-btn">
             Download Full Research
           </a>
         </motion.div>

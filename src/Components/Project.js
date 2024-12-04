@@ -1,15 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './Project.css'; // Add appropriate styles
-import image1 from './images/IMG_2762.JPG';
-import image2 from './images/IMG_2766.JPG';
-import image3 from './images/IMG_2771.JPG';
-import image4 from './images/IMG_2803.JPG';
-import image5 from './images/IMG_2807.JPG';
-import image6 from './images/IMG_2912.JPG';
-import image7 from './images/IMG_2915.JPG';
-import image8 from './images/IMG_3044.JPG';
-import image9 from './images/IMG_3046.JPG';
+
 
 const Project = () => {
   return (
@@ -64,18 +56,18 @@ const Project = () => {
           <h3>Gallery</h3>
           <p>Here are some highlights from the project:</p>
           <div className="gallery-grid">
-            <img src={image1} alt="Project highlight 1" />
-            <img src={image2} alt="Project highlight 2" />
-            <img src={image3} alt="Project highlight 3" />
-            <img src={image4} alt="Project highlight 4" />
-            <img src={image5} alt="Project highlight 5" />
-            <img src={image6} alt="Project highlight 6" />
-            <img src={image7} alt="Project highlight 7" />
-            <img src={image8} alt="Project highlight 8" />
-            <img src={image9} alt="Project highlight 9" />
+            <img src={process.env.PUBLIC_URL +"/images/IMG_2762.JPG"} alt="Project highlight 1" />
+            <img src={process.env.PUBLIC_URL +"/images/IMG_2766.JPG"} alt="Project highlight 2" />
+            <img src={process.env.PUBLIC_URL +"/images/IMG_2771.JPG"} alt="Project highlight 3" />
+            <img src={process.env.PUBLIC_URL +"/images/IMG_2803.JPG"} alt="Project highlight 4" />
+            <img src={process.env.PUBLIC_URL +"/images/IMG_2807.JPG"} alt="Project highlight 5" />
+            <img src={process.env.PUBLIC_URL +"/images/IMG_2807.JPG"} alt="Project highlight 6" />
+            <img src={process.env.PUBLIC_URL +"/images/IMG_2912.JPG"} alt="Project highlight 7" />
+            <img src={process.env.PUBLIC_URL +"/images/IMG_2915.JPG"} alt="Project highlight 8" />
+            <img src={process.env.PUBLIC_URL +"/images/IMG_3046.JPG"} alt="Project highlight 9" />
           </div>
         </div>
-
+      
         <div className="skills-gained">
           <h3>Skills Gained</h3>
           <ul>
