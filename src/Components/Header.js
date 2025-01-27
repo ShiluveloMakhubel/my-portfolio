@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import { Link } from 'react-scroll'; // Import Link from react-scroll
+import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
@@ -8,16 +8,11 @@ const Header = () => {
       <nav className="navbar">
         <div className="container">
           <a href="#about" className="brand">
-            <img src={process.env.PUBLIC_URL +"/images/logo.PNG"} alt="Shiluvelo Makhubele Logo" className="logo" />
+            <img src={process.env.PUBLIC_URL + "/images/logo.PNG"} alt="Shiluvelo Makhubele Logo" className="logo" />
           </a>
           <ul className="nav-links">
             <li>
-              <Link
-                to="about"
-                smooth={true}
-                duration={500}
-                offset={-50} // Adjust offset for fixed headers
-              >
+              <Link to="about" smooth={true} duration={500} offset={-50}>
                 About
               </Link>
             </li>
@@ -60,6 +55,16 @@ const Header = () => {
               <Link to="ongoing-projects" smooth={true} duration={500} offset={-50}>
                 On-Going projects
               </Link>
+            </li>
+            {/* Add CV Download Button */}
+            <li>
+              <a
+                href="/cv.pdf" 
+                download="Shiluvelo_Makhubele_CV.pdf"
+                className="download-btn"
+              >
+                Download CV
+              </a>
             </li>
           </ul>
         </div>
