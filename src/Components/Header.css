@@ -14,7 +14,7 @@
 .navbar .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  
   padding: 1rem 2rem;
   max-width: 1200px;
   margin: 0 auto;
@@ -106,7 +106,7 @@ img {
 
   .nav-links {
     flex-direction: column;
-    align-items: center;
+   
     width: 100%;
     display: none;
   }
@@ -120,9 +120,9 @@ img {
   }
 }
 .download-btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff; /* Blue color */
+  
+ 
+  background-color: #ffffff; /* Blue color */
   color: #ffffff; /* White text */
   text-decoration: none; /* Remove underline */
   border-radius: 5px; /* Rounded corners */

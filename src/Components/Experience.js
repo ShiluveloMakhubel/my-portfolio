@@ -67,6 +67,21 @@ const Experience = () => {
             <li><strong>Interpersonal:</strong> Enhanced teamwork, communication, and stakeholder reporting skills</li>
           </ul>
         </div>
+        {/* GIZ – South African Weather Services */}
+<div className="experience-item">
+  <h3>GIZ (Stationed at South African Weather Services)</h3>
+  <p><strong>Role:</strong> Database Administrator Intern</p>
+  <p><strong>Duration:</strong> May 2025 – Present</p>
+  <p><strong>Responsibilities:</strong> Contributed to major data recovery efforts following a severe cyber-attack, restoring data for 14 national weather stations and rebuilding critical databases. Collaborated with senior DBAs and IT specialists to recover data from backups and repair damaged systems. Led modernization of legacy Java applications that process real-time and aggregated weather station data. Initiated and contributed to the development of a web-based tool using React.js and Node.js to simplify data management tasks for non-technical staff.</p>
+  <p><em>Skills Gained:</em></p>
+  <ul>
+    <li><strong>Technical:</strong> SQL, stored procedures, Java, React.js, Node.js</li>
+    <li><strong>Cybersecurity:</strong> Disaster recovery, backup strategy, post-breach mitigation</li>
+    <li><strong>Collaboration:</strong> Worked closely with senior DBAs and IT teams</li>
+    <li><strong>Methodologies:</strong> Agile development, system modernization</li>
+  </ul>
+</div>
+
       </div>
     </motion.div>
   );

@@ -7,9 +7,7 @@ const Header = () => {
     <header className="header">
       <nav className="navbar">
         <div className="container">
-          <a href="#about" className="brand">
-            <img src={process.env.PUBLIC_URL + "/images/logo.PNG"} alt="Shiluvelo Makhubele Logo" className="logo" />
-          </a>
+          
           <ul className="nav-links">
             <li>
               <Link to="about" smooth={true} duration={500} offset={-50}>

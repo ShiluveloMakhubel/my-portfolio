@@ -48,11 +48,11 @@ const coursesData = [
     icon: <FaLock className="course-icon" />
   },
   {
-    title: "COS721 Computer and Information Security (II)",
-    description: "Covers information security management, risk management, privacy, ethics, and legal issues.",
-    skills: "Digital Questioned Document Eximination ,Ballistics,PDF analysis, Risk Management, Security Policies, Privacy, Ethical Considerations, Security Technologies",
-    icon: <FaUserShield className="course-icon" />
-  },
+  title: "COS741 - Formal Aspects of Computing (II)",
+  description: "Model Checking is a technique for automatically verifying whether a software program satisfies correctness requirements such as mutual exclusion, deadlock-freedom or starvation-freedom. This module focuses on the theoretical foundations of model checking: modelling the state space of software as an automaton, formal specification of correctness requirements in temporal logic, and algorithms for systematically exploring the state space of software. The practical aspect includes writing parallel programs composed of communicating processes and using model checking tools to verify correctness.",
+  skills: "Model Checking, Temporal Logic, Automata Theory, Parallel Programming, SPIN Model Checker, Formal Verification",
+  icon: <FaLock className="course-icon" />
+},
   {
     title: "COS750 Educational Software Development",
     description: "Provides the foundation for evaluating and developing educational software using didactic principles.",
