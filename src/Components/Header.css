@@ -43,6 +43,8 @@
 
 .nav-links li {
   margin-left: 2rem;
+  display: flex;
+  align-items: center;
 }
 
 .nav-links a {
@@ -120,16 +122,19 @@ img {
   }
 }
 .download-btn {
-  
- 
-  background-color: #ffffff; /* Blue color */
-  color: #ffffff; /* White text */
-  text-decoration: none; /* Remove underline */
-  border-radius: 5px; /* Rounded corners */
-  font-weight: bold; /* Bold text */
-  transition: background-color 0.3s ease; /* Smooth hover effect */
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  position: relative;
+  transition: color 0.3s ease;
+  padding: 0;
+  background: none;
+  border: none;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
 }
 
 .download-btn:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  color: #007bff;
 }

@@ -58,7 +58,7 @@ const Header = () => {
             <li>
               <a
                 href="/cv.pdf" 
-                download="Shiluvelo_Makhubele_CV.pdf"
+                download="CV.pdf"
                 className="download-btn"
               >
                 Download CV

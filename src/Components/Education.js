@@ -37,7 +37,7 @@ const Education = () => {
           <FontAwesomeIcon icon={faUniversity} className="education-icon" />
           <div className="education-content">
             <h3>University of Pretoria</h3>
-            <p><strong>Bachelor of Science Honours in Computer Science</strong><br />2024 - Present</p>
+            <p><strong>Bachelor of Science Honours in Computer Science</strong><br />2025</p>
           </div>
         </div>
         <div className="education-item">

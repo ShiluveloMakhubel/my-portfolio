@@ -1,49 +1,63 @@
 .footer {
     background-color: #333;
-    color:#fff;
-    position: sticky;
-    top: 0;
+    color: #fff;
+    position: relative;
+    bottom: 0;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    animation: slideDown 0.5s ease-in-out;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 0 10px 0;
+    font-size: 0.85rem;
 }
 
 .footer-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
 .footer-section {
-    flex: 1;
+    flex: 1 1 300px;
+    margin: 10px 20px;
 }
 
 .footer-left {
     text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .footer-center {
-    text-align: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .footer-right {
-    text-align: right;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .footer h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
     color: #fff;
 }
 
 .footer-item {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin: 5px 0;
 }
 
@@ -54,7 +68,7 @@
 }
 
 .footer-item a, .footer-item span {
-    font-size: 1rem;
+    font-size: 0.85rem;
     color: #fff;
     text-decoration: none;
 }

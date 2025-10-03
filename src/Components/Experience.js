@@ -57,7 +57,7 @@ const Experience = () => {
         <div className="experience-item">
           <h3>Deposita</h3>
           <p><strong>Role:</strong> Graduate Intern</p>
-          <p><strong>Duration:</strong> Sept 2024 - October 2024</p>
+          <p><strong>Duration:</strong> Sept 2024 - November 2024</p>
           <p><strong>Responsibilities:</strong> I worked with the testing team, completing over 100 UAT tests. I also collaborated with the Senior Java Developer, support, and data teams.</p>
           <p><em>Skills Gained:</em></p>
           <ul>
@@ -71,7 +71,7 @@ const Experience = () => {
 <div className="experience-item">
   <h3>GIZ (Stationed at South African Weather Services)</h3>
   <p><strong>Role:</strong> Database Administrator Intern</p>
-  <p><strong>Duration:</strong> May 2025 – Present</p>
+  <p><strong>Duration:</strong> Feb 2025 – Present</p>
   <p><strong>Responsibilities:</strong> Contributed to major data recovery efforts following a severe cyber-attack, restoring data for 14 national weather stations and rebuilding critical databases. Collaborated with senior DBAs and IT specialists to recover data from backups and repair damaged systems. Led modernization of legacy Java applications that process real-time and aggregated weather station data. Initiated and contributed to the development of a web-based tool using React.js and Node.js to simplify data management tasks for non-technical staff.</p>
   <p><em>Skills Gained:</em></p>
   <ul>
